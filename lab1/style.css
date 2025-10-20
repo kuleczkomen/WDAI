@@ -2,19 +2,20 @@ header {
    padding-bottom: 20px;
 }
 
-header a,li {
+header a, header li {
    font-size: 2rem;
 }
 
-#cw1 {
+.cw1 {
    color: red;
 }
-#cw2 {
+.cw2 {
    color: blue;
 }
-#cw3 {
-   color: chocolate;
+.cw3{
+   color: green;
 }
+
 #author {
    color: red;
 }
@@ -22,19 +23,23 @@ header a,li {
    padding: 50px 0 50px 15%;
    width: 70%;
 }
-table {
-   padding: 20px 0 50px 0;
 
+main table {
+   padding: 20px 0 20px 0;
+   border-collapse: collapse;
+   margin: 0 0 50px 50px;
 }
-table th, td {
+table th, table td {
    border: solid 1px black;
    padding: 5px;
-   border-collapse: collapse;
 }
 .sq {
    width: 100px;
    height: 100px;
    margin: 5px;
+}
+.sqLine{
+   display: flex;
 }
 #sq1{
    background-color: green;
@@ -45,13 +50,6 @@ table th, td {
 #sq3{
    background-color: brown;
 }
-#sq4{
-   background-color: cyan;
-}
 #sq5{
    background-color: indigo;
-}
-
-.sqLine{
-   display: flex;
 }

@@ -12,65 +12,30 @@
    <header>
       <h1>Wykonane ćwiczenia:</h1>
       <ol>
-         <li id="cw1">
-            <a id="cw1" href="#myArticle">ćw1</a>
+         <li class="cw1">
+            <a class="cw1" href="#myArticle">ćw1</a>
          </li>
-         <li id="cw2">
-            <a id="cw2" href="#myTable">ćw2</a>
+         <li class="cw2">
+            <a class="cw2" href="#mainTable">ćw2</a>
          </li>
-         <li id="cw3">
-            <a id="cw3" href="#mySquares">ćw3</a>
+         <li class="cw3">
+            <a class="cw3" href="#mySquares">ćw3</a>
          </li>
       </ol>
    </header>
 
    <article id="myArticle">
       <h2>Trochę łaciny</h2>
-      <h4 id="author">Kacper Kulka</h4>
+      <h4 id="author">Marek Tulliusz Cyceron</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut velit nec lorem tempus suscipit. Aliquam quis lacus id erat fringilla semper. Donec ac fermentum dui. Praesent auctor vulputate ullamcorper. Donec molestie dolor magna, eu rhoncus massa viverra eu. Morbi et luctus augue. Aliquam et tempor dolor, sed pharetra eros. Donec fermentum nunc nec lacus consectetur consequat. Nam vestibulum sodales lectus. </p>
       <p>Sed augue ligula, congue quis augue sed, luctus pellentesque eros. Nunc elit leo, ultricies quis pretium tristique, gravida a orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc orci sapien, porta nec malesuada ac, elementum sed leo. Praesent at eleifend ipsum, ac mattis dolor. Morbi a sollicitudin est. Phasellus rutrum scelerisque tellus ac posuere. Phasellus pulvinar, est at volutpat aliquet, purus justo convallis libero, a dictum felis massa ac felis. Phasellus dictum nibh sit amet purus blandit porta. Quisque id aliquam dui. Donec tincidunt iaculis arcu quis porta.</p>
       <p>Sed et leo suscipit, aliquam enim quis, euismod nunc. Phasellus a viverra velit. Donec odio eros, pulvinar vel varius nec, fringilla in urna. Praesent dictum, est eget dapibus finibus, tellus erat viverra eros, vel fringilla felis ligula vel arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut ante leo. Vivamus nisi mauris, venenatis a egestas ac, varius eget tortor. In ac libero eget est vulputate sollicitudin non in massa. Pellentesque suscipit euismod molestie. Pellentesque ut dui vel mauris ullamcorper sagittis. Cras finibus, dui vitae eleifend placerat, purus sem tristique nulla, vel blandit mauris tortor sit amet tortor. Donec vitae ante vulputate, semper est at, vulputate velit. </p>
       <img id="myImg" src="koloseum.webp" alt="Koloseum...">
    </article>
 
-   <table id="myTable">
-      <tr>
-         <th>Nr.</th>
-         <th>Nazwa produktu</th>
-         <th>Cena produktu</th>
-         <th>Ilość sztuk</th>
-      </tr>
-      <tr>
-         <td>1.</td>
-         <td>Telewizor</td>
-         <td>4000zł</td>
-         <td>1</td>
-      </tr>
-      <tr>
-         <td>2.</td>
-         <td>Laptop</td>
-         <td>2500zł</td>
-         <td>5</td>
-      </tr>
-      <tr>
-         <td>3.</td>
-         <td>Telefon</td>
-         <td>1000zł</td>
-         <td>10</td>
-      </tr>
-      <tr>
-         <td>4.</td>
-         <td>Smartwatch</td>
-         <td>300zł</td>
-         <td>13</td>
-      </tr>
-      <tr>
-         <td>5.</td>
-         <td>Klawiatura</td>
-         <td>100zł</td>
-         <td>1000</td>
-      </tr>
-   </table>
+   <main id="mainTable">
+      <!-- table in js -->
+   </main>
 
    <main id="mySquares">
       <div class="sqLine">
@@ -80,11 +45,13 @@
 
       <div class="sqLine">
          <div class="sq" id="sq3"></div>
-         <div class="sq" id="sq4"></div>
+         <img src="koloseum.webp" class="sq" id="imgSq">
          <div class="sq" id="sq5"></div>
       </div>
 
    </main>
+
+   <script src="index.js"></script>
 
 </body>
 </html>
