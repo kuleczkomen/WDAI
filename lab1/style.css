@@ -1,0 +1,57 @@
+header {
+   padding-bottom: 20px;
+}
+
+header a,li {
+   font-size: 2rem;
+}
+
+#cw1 {
+   color: red;
+}
+#cw2 {
+   color: blue;
+}
+#cw3 {
+   color: chocolate;
+}
+#author {
+   color: red;
+}
+#myImg {
+   padding: 50px 0 50px 15%;
+   width: 70%;
+}
+table {
+   padding: 20px 0 50px 0;
+
+}
+table th, td {
+   border: solid 1px black;
+   padding: 5px;
+   border-collapse: collapse;
+}
+.sq {
+   width: 100px;
+   height: 100px;
+   margin: 5px;
+}
+#sq1{
+   background-color: green;
+}
+#sq2{
+   background-color: yellow;
+}
+#sq3{
+   background-color: brown;
+}
+#sq4{
+   background-color: cyan;
+}
+#sq5{
+   background-color: indigo;
+}
+
+.sqLine{
+   display: flex;
+}
