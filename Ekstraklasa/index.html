@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Ekstraklasa</title>
+   <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <h1>Najlepsza liga piłkarska w Polsce</h1>
+   </header>
+
+   <nav class="middle">
+      <a href="index.html">Strona główna</a> |
+      <a href="wyniki.html">Najnowsze wyniki i tabela</a> |
+      <a href="galeria.html">Galeria zdjęć</a>
+   </nav>
+
+   <main class="middle">
+      <article>
+         <h2>Czym jest ekstraklasa?</h2>
+         <p>Ekstraklasa to najwyższa klasa rozgrywkowa piłki nożnej w Polsce, skupiająca 18 najlepszych drużyn w kraju. Powstała w 1927 roku i od tamtej pory jest areną rywalizacji najpopularniejszych klubów, takich jak Legia Warszawa, Lech Poznań, Wisła Kraków czy Górnik Zabrze.<p>
+         <p>Sezon trwa zazwyczaj od lipca do maja, a zespoły grają systemem ligowym – każdy z każdym, mecz i rewanż. Zwycięzca rozgrywek zdobywa tytuł mistrza Polski oraz prawo gry w eliminacjach Ligi Mistrzów UEFA.</p>
+         <p>Ekstraklasa jest znana z emocjonujących spotkań, gorącej atmosfery na stadionach i silnych rywalizacji regionalnych, zwłaszcza między Legią Warszawa a Lechem Poznań. W ostatnich latach liga intensywnie się rozwija – inwestuje w infrastrukturę, młodzież oraz transmisje telewizyjne, dzięki czemu zyskuje coraz większe grono kibiców także poza granicami kraju.</p>
+         <p>Choć ekstraklasa poczyniła znaczny postęp sportowy w ostatnich latach, wciąż ustępuje czołowym ligom europejskim. Ekstraklasa pozostaje kluczowym elementem polskiej kultury futbolowej i kuźnią talentów dla reprezentacji narodowej.</p>
+      </article>
+
+      <aside>
+         <img src="grafika.png" alt="Mapa drużyn Ekstraklasy">
+      </aside>
+   </main>
+
+   <form id="myForm" onsubmit="return validateForm()">
+      <h2>Zapraszam do kontaktu!</h2>
+      <label for="email">Adres e-mail</label><br>
+      <input name="email" type="text" id="email" placeholder="twój e-mail..."><br><br>
+
+      <label for="topic">Temat wiadomości</label><br>
+      <select id="topic">
+         <option value="pytanie do redakcji">Pytanie do redakcji</option>
+         <option value="współpraca biznesowa">Współpraca biznesowa</option>
+         <option value="błąd">Zgłoszenie błędu</option>
+      </select><br><br>
+
+      <label for="msg">Wiadomość</label><br>
+      <textarea id="msg" rows="5" cols="50" placeholder="twoja wiadomość..."></textarea><br><br>
+
+      <input type="submit" value="Wyślij">
+   </form>
+
+   <footer>
+      <h3>Kacper Kulka 2025 | Wszystkie prawa zastrzeżone</h3>
+   </footer>
+
+   <script src="index.js"></script>
+</body>
+</html>
