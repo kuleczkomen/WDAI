@@ -14,13 +14,12 @@ nav {
    background-color: #70B2B2;
    padding: 20px 0 20px 0;
    font-size: 1.5rem;
-   justify-content: center;
+   text-align: center;
    color: blue;
 }
 
 nav a {
    text-decoration: none;
-   text-align: center;
 }
 
 nav a:hover {
@@ -28,28 +27,18 @@ nav a:hover {
    color: #3c3c87;
 }
 
-.middle {
+.container {
    display: flex;
-   gap: 20px;
    flex-wrap: wrap;
+   background-color: #a6ce6c;
 }
 
-.middle aside {
-   flex: 1 1 300px;
+.article {
+   max-width: 1200px;
+   background-color: #a6ce6c;
+   padding: 20px 0 20px 0;
 }
 
-.middle article {
-   flex: 2 1 600px;
-}
-
-aside img {
-   border-radius: 10px;
-}
-
-article {
-   background-color: #E5E9C5;
-   padding: 20px 0 20px 50px;
-}
 
 article p {
    font-size: 1.3rem;

@@ -10,6 +10,10 @@ header, footer {
    color: white;
 }
 
+#myTime {
+   font-size: 1rem;
+}
+
 nav {
    background-color: #70B2B2;
    padding: 20px 0 20px 0;
@@ -19,18 +23,16 @@ nav {
    text-align: center;
 }
 
-nav a {
-   text-decoration: none;
-}
 
 nav a:hover {
    text-decoration: underline;
-   color: #3c3c87;
+   color: #ffffff;
 }
 
 main {
    display: flex;
    flex-wrap: wrap;
+   background-color: #a6ce6c;
 }
 
 .myImg {
@@ -40,20 +42,11 @@ main {
    border-radius: 15px;
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.video {
+   display: block;
+   margin: 20px auto;
+   width: 90%;
+   
 }
 
 
