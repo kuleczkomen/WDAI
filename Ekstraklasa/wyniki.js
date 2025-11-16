@@ -138,5 +138,15 @@ function makeStandings() {
    document.getElementById("standings").appendChild(myStandings);
 }
 
+function time() {
+   const currTime = new Date();
+   const hrs = currTime.getHours();
+   const mins = currTime.getMinutes();
+   const secs = currTime.getSeconds();
+
+   document.getElementById("myTime").textContent = `${hrs}:${mins}:${secs}`;
+}
+
 makeMatchday();
 makeStandings();
+setInterval(time, 1000);
